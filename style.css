@@ -111,10 +111,10 @@ section .infos {
 }
 
 .modal {
-    height: 100vw;
+    height: 100%;
     width: 100vw;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 0%;
     background-color: #35353587;
     backdrop-filter: blur(4px);
     display: flex;
