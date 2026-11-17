@@ -38,7 +38,6 @@ for (let row = 0; row < rows; row++) {
         const block = document.createElement('div')
         block.classList.add("block")
         board.appendChild(block)
-        // block.innerText = `${row}-${col}`
         blocks[`${row}-${col}`] = block;
     }
 }
@@ -105,10 +104,6 @@ function render() {
         blocks[`${segment.x}-${segment.y}`].classList.add('fill')
     })
 }
-
-// intervalId = setInterval(() => {
-//     render()
-// }, 400);
 
 startButton.addEventListener("click", () => {
 
